@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #0f0f0f;
+    color: #f0f0f0;
+    font-family: 'Segoe UI', sans-serif;
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.image-wrapper {
+    position: relative;
+    top: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+}
+
+.image-wrapper img {
+    max-height: 800px;
+    width: auto;
+    max-width: 100%;
+}
+
+.overlay-header {
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    text-align: center;
+    z-index: 2;
+}
+
+.overlay-header h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+.overlay-header p {
+    font-size: 1.2em;
+    color: #ccc;
+    margin: 0.5em 0 0;
+}
+
+.footer-text {
+    position: absolute;
+    top: 700px;
+    width: 100%;
+    text-align: center;
+    font-size: 1em;
+    color: #aaa;
+    z-index: 2;
+}
